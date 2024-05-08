@@ -1,0 +1,40 @@
+name: Localize
+
+on: 
+  push:
+    branches:
+      - main
+    paths:
+      - '**.strings'
+      - '**.stringsdict'
+  # Also run every day at midnight to pick up new localizations
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '0 0 * * *'
+
+jobs:
+  Localize:
+    runs-on: ubuntu-latest
+    environment: localization
+    permissions:
+      actions: read
+      contents: read
+      deployments: read
+      packages: read
+      pull-requests: write
+
+    steps:
+    - uses: actions/checkout@v3
+    - shell: bash
+      name: Localize
+      env:
+        TDBUILD_TEAM_ID: ${{ secrets.TDBUILD_TEAM_ID }}
+        TDBUILD_AAD_APPLICATION_CLIENT_ID: ${{ secrets.TDBUILD_AAD_APPLICATION_CLIENT_ID }}
+        TDBUILD_AAD_APPLICATION_CLIENT_SECRET: ${{ secrets.TDBUILD_AAD_APPLICATION_CLIENT_SECRET }}
+      run: scripts/localize.sh
+    - name: Create Pull Request
+      run: scripts/create_localization_pr.sh
+      env:
+          GITHUB_TOKEN: ${{ secrets.MSF_TOKEN }}
+          EMAIL: ${{ secrets.EMAIL }}
+          NAME: ${{ vars.NAME }}

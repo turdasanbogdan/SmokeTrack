@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8419B0FB2BE1434F004A08FC /* HeatMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419B0FA2BE1434F004A08FC /* HeatMapView.swift */; };
+		8419B0FF2BE15A49004A08FC /* ActivityHeatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419B0FE2BE15A49004A08FC /* ActivityHeatMap.swift */; };
+		8419B1032BE191CE004A08FC /* DataOverview2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419B1022BE191CE004A08FC /* DataOverview2.swift */; };
+		8419B1052BE1A1B6004A08FC /* MoodChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419B1042BE1A1B6004A08FC /* MoodChartView.swift */; };
+		8419B1072BE1C97F004A08FC /* SpendingChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419B1062BE1C97F004A08FC /* SpendingChartView.swift */; };
+		8419B1092BE1D816004A08FC /* ActivityChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419B1082BE1D816004A08FC /* ActivityChartView.swift */; };
+		8419B10B2BE1DD46004A08FC /* SocialChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419B10A2BE1DD46004A08FC /* SocialChartView.swift */; };
+		8419B10D2BE1E3FC004A08FC /* DashboardsViewTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419B10C2BE1E3FC004A08FC /* DashboardsViewTime.swift */; };
+		8419B10F2BE1FB4E004A08FC /* UserProfileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419B10E2BE1FB4E004A08FC /* UserProfileManager.swift */; };
+		8419B1112BE22068004A08FC /* EmotionSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419B1102BE22068004A08FC /* EmotionSelectorView.swift */; };
+		8419B1132BE22AB0004A08FC /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8419B1122BE22AB0004A08FC /* LocationManager.swift */; };
+		8454BD7F2BD8587F00F0D53B /* ActivitySelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BD7E2BD8587F00F0D53B /* ActivitySelectorView.swift */; };
+		8454BD802BD8587F00F0D53B /* ActivitySelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BD7E2BD8587F00F0D53B /* ActivitySelectorView.swift */; };
+		8454BD822BD8595800F0D53B /* SocialSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BD812BD8595800F0D53B /* SocialSelectorView.swift */; };
+		8454BD832BD8595800F0D53B /* SocialSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BD812BD8595800F0D53B /* SocialSelectorView.swift */; };
+		8454BD852BD859C600F0D53B /* RecordSmokeV2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BD842BD859C600F0D53B /* RecordSmokeV2.swift */; };
+		8454BD892BD8633F00F0D53B /* SelectionStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BD882BD8633F00F0D53B /* SelectionStep.swift */; };
+		8454BD8A2BD8633F00F0D53B /* SelectionStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BD882BD8633F00F0D53B /* SelectionStep.swift */; };
+		8454BD8C2BD868DE00F0D53B /* YearMonthSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8454BD8B2BD868DE00F0D53B /* YearMonthSelector.swift */; };
+		845938E52BD93EB60008F109 /* LandingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845938E42BD93EB60008F109 /* LandingPage.swift */; };
+		845938E72BD942200008F109 /* MultiStepForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845938E62BD942200008F109 /* MultiStepForm.swift */; };
+		847681972BD0064C00D9E69E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847681962BD0064C00D9E69E /* MapView.swift */; };
+		847E59B02BCB4E2A008D3ECC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E59AF2BCB4E2A008D3ECC /* HomeView.swift */; };
+		847E59B22BCB4E44008D3ECC /* DashboardsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E59B12BCB4E44008D3ECC /* DashboardsView.swift */; };
+		847E59B42BCB4E59008D3ECC /* SmokesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E59B32BCB4E59008D3ECC /* SmokesView.swift */; };
+		847E59B62BCB4E64008D3ECC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E59B52BCB4E64008D3ECC /* ProfileView.swift */; };
+		847E59B82BCB56DE008D3ECC /* RecordSmoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E59B72BCB56DD008D3ECC /* RecordSmoke.swift */; };
+		847E59BA2BCB7E67008D3ECC /* Smoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E59B92BCB7E67008D3ECC /* Smoke.swift */; };
+		849341012BCF066E00239B67 /* PersonalData2WatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849341002BCF066E00239B67 /* PersonalData2WatchApp.swift */; };
+		849341032BCF066E00239B67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849341022BCF066E00239B67 /* ContentView.swift */; };
+		849341052BCF067100239B67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849341042BCF067100239B67 /* Assets.xcassets */; };
+		849341082BCF067100239B67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 849341072BCF067100239B67 /* Preview Assets.xcassets */; };
+		8493410B2BCF067100239B67 /* PersonalData2Watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 849340FE2BCF066E00239B67 /* PersonalData2Watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		849341182BCF230B00239B67 /* EmotionSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9BA142BCC775900612EDC /* EmotionSelection.swift */; };
+		849341192BCF230F00239B67 /* Smoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E59B92BCB7E67008D3ECC /* Smoke.swift */; };
+		8493411A2BCF26FB00239B67 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F887462BCB325400FD1AD2 /* Item.swift */; };
+		8493411C2BCF2FDC00239B67 /* WatchConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8493411B2BCF2FDC00239B67 /* WatchConnector.swift */; };
+		8493411E2BCF308400239B67 /* WatchToIOSConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8493411D2BCF308400239B67 /* WatchToIOSConnector.swift */; };
+		849341202BCF387200239B67 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8493411F2BCF387200239B67 /* WatchConnectivity.framework */; };
+		849341222BCF396E00239B67 /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849341212BCF396E00239B67 /* WatchConnectivity.framework */; };
+		84C202562BE0287B005CB63F /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C202552BE0287B005CB63F /* UserProfile.swift */; };
+		84CA35092BEA9F1100ECD854 /* CompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA35082BEA9F1100ECD854 /* CompletionView.swift */; };
+		84CA35102BEB27F700ECD854 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CA350F2BEB27F700ECD854 /* WidgetKit.framework */; };
+		84CA35122BEB27F700ECD854 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84CA35112BEB27F700ECD854 /* SwiftUI.framework */; };
+		84CA35152BEB27F700ECD854 /* SmokeTrack_WidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA35142BEB27F700ECD854 /* SmokeTrack_WidgetBundle.swift */; };
+		84CA351B2BEB27F700ECD854 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA351A2BEB27F700ECD854 /* AppIntent.swift */; };
+		84CA351D2BEB27FA00ECD854 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84CA351C2BEB27FA00ECD854 /* Assets.xcassets */; };
+		84CA35212BEB27FA00ECD854 /* SmokeTrack WidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 84CA350E2BEB27F700ECD854 /* SmokeTrack WidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		84CA352D2BEB3CCB00ECD854 /* SimpleAppOpenerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA352C2BEB3CCB00ECD854 /* SimpleAppOpenerWidget.swift */; };
+		84CA352E2BEB3CCB00ECD854 /* SimpleAppOpenerWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA352C2BEB3CCB00ECD854 /* SimpleAppOpenerWidget.swift */; };
+		84DB82122BCFE4A100FF008B /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB82112BCFE4A100FF008B /* DataType.swift */; };
+		84DB82132BCFE4A100FF008B /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB82112BCFE4A100FF008B /* DataType.swift */; };
+		84E9BA152BCC775900612EDC /* EmotionSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9BA142BCC775900612EDC /* EmotionSelection.swift */; };
+		84E9BA1F2BCCA79700612EDC /* ToasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9BA1E2BCCA79700612EDC /* ToasterView.swift */; };
+		84E9BA212BCCC8D000612EDC /* DragState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E9BA202BCCC8D000612EDC /* DragState.swift */; };
+		84F4A6712BE9E7FD00D5C301 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4A6702BE9E7FD00D5C301 /* Article.swift */; };
+		84F4A6732BE9E81300D5C301 /* ArticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4A6722BE9E81300D5C301 /* ArticleView.swift */; };
+		84F4A6752BE9E83800D5C301 /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4A6742BE9E83800D5C301 /* LearnView.swift */; };
+		84F4A6772BEA31D700D5C301 /* StartingStampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F4A6762BEA31D700D5C301 /* StartingStampView.swift */; };
+		84F887432BCB325400FD1AD2 /* PersonalData2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F887422BCB325400FD1AD2 /* PersonalData2App.swift */; };
+		84F887452BCB325400FD1AD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F887442BCB325400FD1AD2 /* ContentView.swift */; };
+		84F887472BCB325400FD1AD2 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F887462BCB325400FD1AD2 /* Item.swift */; };
+		84F887492BCB325500FD1AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F887482BCB325500FD1AD2 /* Assets.xcassets */; };
+		84F8874C2BCB325500FD1AD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84F8874B2BCB325500FD1AD2 /* Preview Assets.xcassets */; };
+		84FDA2782BCF5A2900958C66 /* WatchConnectivity.framework in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8493411F2BCF387200239B67 /* WatchConnectivity.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		84FDA27A2BCF63D200958C66 /* TimeFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDA2792BCF63D200958C66 /* TimeFrame.swift */; };
+		84FDA27B2BCF63F900958C66 /* TimeFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FDA2792BCF63D200958C66 /* TimeFrame.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		849341092BCF067100239B67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F887372BCB325300FD1AD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 849340FD2BCF066E00239B67;
+			remoteInfo = "PersonalData2Watch Watch App";
+		};
+		84CA351F2BEB27FA00ECD854 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84F887372BCB325300FD1AD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84CA350D2BEB27F700ECD854;
+			remoteInfo = "SmokeTrack WidgetExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8493410C2BCF067100239B67 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				84FDA2782BCF5A2900958C66 /* WatchConnectivity.framework in Embed Watch Content */,
+				8493410B2BCF067100239B67 /* PersonalData2Watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CA35252BEB27FA00ECD854 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				84CA35212BEB27FA00ECD854 /* SmokeTrack WidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8419B0FA2BE1434F004A08FC /* HeatMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatMapView.swift; sourceTree = "<group>"; };
+		8419B0FE2BE15A49004A08FC /* ActivityHeatMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityHeatMap.swift; sourceTree = "<group>"; };
+		8419B1022BE191CE004A08FC /* DataOverview2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataOverview2.swift; sourceTree = "<group>"; };
+		8419B1042BE1A1B6004A08FC /* MoodChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodChartView.swift; sourceTree = "<group>"; };
+		8419B1062BE1C97F004A08FC /* SpendingChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpendingChartView.swift; sourceTree = "<group>"; };
+		8419B1082BE1D816004A08FC /* ActivityChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityChartView.swift; sourceTree = "<group>"; };
+		8419B10A2BE1DD46004A08FC /* SocialChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialChartView.swift; sourceTree = "<group>"; };
+		8419B10C2BE1E3FC004A08FC /* DashboardsViewTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardsViewTime.swift; sourceTree = "<group>"; };
+		8419B10E2BE1FB4E004A08FC /* UserProfileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileManager.swift; sourceTree = "<group>"; };
+		8419B1102BE22068004A08FC /* EmotionSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionSelectorView.swift; sourceTree = "<group>"; };
+		8419B1122BE22AB0004A08FC /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		8454BD7E2BD8587F00F0D53B /* ActivitySelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitySelectorView.swift; sourceTree = "<group>"; };
+		8454BD812BD8595800F0D53B /* SocialSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialSelectorView.swift; sourceTree = "<group>"; };
+		8454BD842BD859C600F0D53B /* RecordSmokeV2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSmokeV2.swift; sourceTree = "<group>"; };
+		8454BD882BD8633F00F0D53B /* SelectionStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionStep.swift; sourceTree = "<group>"; };
+		8454BD8B2BD868DE00F0D53B /* YearMonthSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearMonthSelector.swift; sourceTree = "<group>"; };
+		845938E42BD93EB60008F109 /* LandingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPage.swift; sourceTree = "<group>"; };
+		845938E62BD942200008F109 /* MultiStepForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiStepForm.swift; sourceTree = "<group>"; };
+		847681962BD0064C00D9E69E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		847E59AF2BCB4E2A008D3ECC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		847E59B12BCB4E44008D3ECC /* DashboardsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardsView.swift; sourceTree = "<group>"; };
+		847E59B32BCB4E59008D3ECC /* SmokesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokesView.swift; sourceTree = "<group>"; };
+		847E59B52BCB4E64008D3ECC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		847E59B72BCB56DD008D3ECC /* RecordSmoke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordSmoke.swift; sourceTree = "<group>"; };
+		847E59B92BCB7E67008D3ECC /* Smoke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smoke.swift; sourceTree = "<group>"; };
+		849340FE2BCF066E00239B67 /* PersonalData2Watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PersonalData2Watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		849341002BCF066E00239B67 /* PersonalData2WatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalData2WatchApp.swift; sourceTree = "<group>"; };
+		849341022BCF066E00239B67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		849341042BCF067100239B67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		849341072BCF067100239B67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8493411B2BCF2FDC00239B67 /* WatchConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchConnector.swift; sourceTree = "<group>"; };
+		8493411D2BCF308400239B67 /* WatchToIOSConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchToIOSConnector.swift; sourceTree = "<group>"; };
+		8493411F2BCF387200239B67 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		849341212BCF396E00239B67 /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS10.4.sdk/System/Library/Frameworks/WatchConnectivity.framework; sourceTree = DEVELOPER_DIR; };
+		84C202552BE0287B005CB63F /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		84CA35082BEA9F1100ECD854 /* CompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletionView.swift; sourceTree = "<group>"; };
+		84CA350E2BEB27F700ECD854 /* SmokeTrack WidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "SmokeTrack WidgetExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84CA350F2BEB27F700ECD854 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		84CA35112BEB27F700ECD854 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		84CA35142BEB27F700ECD854 /* SmokeTrack_WidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmokeTrack_WidgetBundle.swift; sourceTree = "<group>"; };
+		84CA351A2BEB27F700ECD854 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		84CA351C2BEB27FA00ECD854 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84CA351E2BEB27FA00ECD854 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84CA352C2BEB3CCB00ECD854 /* SimpleAppOpenerWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAppOpenerWidget.swift; sourceTree = "<group>"; };
+		84DB82112BCFE4A100FF008B /* DataType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataType.swift; sourceTree = "<group>"; };
+		84E9BA142BCC775900612EDC /* EmotionSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmotionSelection.swift; sourceTree = "<group>"; };
+		84E9BA1E2BCCA79700612EDC /* ToasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToasterView.swift; sourceTree = "<group>"; };
+		84E9BA202BCCC8D000612EDC /* DragState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragState.swift; sourceTree = "<group>"; };
+		84F4A6702BE9E7FD00D5C301 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		84F4A6722BE9E81300D5C301 /* ArticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleView.swift; sourceTree = "<group>"; };
+		84F4A6742BE9E83800D5C301 /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
+		84F4A6762BEA31D700D5C301 /* StartingStampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartingStampView.swift; sourceTree = "<group>"; };
+		84F8873F2BCB325400FD1AD2 /* PersonalData2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalData2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F887422BCB325400FD1AD2 /* PersonalData2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalData2App.swift; sourceTree = "<group>"; };
+		84F887442BCB325400FD1AD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		84F887462BCB325400FD1AD2 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		84F887482BCB325500FD1AD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84F8874B2BCB325500FD1AD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		84FDA2792BCF63D200958C66 /* TimeFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFrame.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		849340FB2BCF066E00239B67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849341222BCF396E00239B67 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CA350B2BEB27F700ECD854 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CA35122BEB27F700ECD854 /* SwiftUI.framework in Frameworks */,
+				84CA35102BEB27F700ECD854 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F8873C2BCB325400FD1AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849341202BCF387200239B67 /* WatchConnectivity.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		849340FF2BCF066E00239B67 /* PersonalData2Watch Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				849341002BCF066E00239B67 /* PersonalData2WatchApp.swift */,
+				849341022BCF066E00239B67 /* ContentView.swift */,
+				849341042BCF067100239B67 /* Assets.xcassets */,
+				849341062BCF067100239B67 /* Preview Content */,
+				8493411D2BCF308400239B67 /* WatchToIOSConnector.swift */,
+			);
+			path = "PersonalData2Watch Watch App";
+			sourceTree = "<group>";
+		};
+		849341062BCF067100239B67 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				849341072BCF067100239B67 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84CA35132BEB27F700ECD854 /* SmokeTrack Widget */ = {
+			isa = PBXGroup;
+			children = (
+				84CA35142BEB27F700ECD854 /* SmokeTrack_WidgetBundle.swift */,
+				84CA351A2BEB27F700ECD854 /* AppIntent.swift */,
+				84CA351C2BEB27FA00ECD854 /* Assets.xcassets */,
+				84CA351E2BEB27FA00ECD854 /* Info.plist */,
+				84CA352C2BEB3CCB00ECD854 /* SimpleAppOpenerWidget.swift */,
+			);
+			path = "SmokeTrack Widget";
+			sourceTree = "<group>";
+		};
+		84F887362BCB325300FD1AD2 = {
+			isa = PBXGroup;
+			children = (
+				84F4A6702BE9E7FD00D5C301 /* Article.swift */,
+				8419B1122BE22AB0004A08FC /* LocationManager.swift */,
+				8419B10E2BE1FB4E004A08FC /* UserProfileManager.swift */,
+				84C202552BE0287B005CB63F /* UserProfile.swift */,
+				8454BD882BD8633F00F0D53B /* SelectionStep.swift */,
+				84DB82112BCFE4A100FF008B /* DataType.swift */,
+				84FDA2792BCF63D200958C66 /* TimeFrame.swift */,
+				84E9BA202BCCC8D000612EDC /* DragState.swift */,
+				84E9BA1E2BCCA79700612EDC /* ToasterView.swift */,
+				847E59B92BCB7E67008D3ECC /* Smoke.swift */,
+				84F887412BCB325400FD1AD2 /* PersonalData2 */,
+				849340FF2BCF066E00239B67 /* PersonalData2Watch Watch App */,
+				84CA35132BEB27F700ECD854 /* SmokeTrack Widget */,
+				84F887402BCB325400FD1AD2 /* Products */,
+				84F8875E2BCB350000FD1AD2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84F887402BCB325400FD1AD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84F8873F2BCB325400FD1AD2 /* PersonalData2.app */,
+				849340FE2BCF066E00239B67 /* PersonalData2Watch Watch App.app */,
+				84CA350E2BEB27F700ECD854 /* SmokeTrack WidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84F887412BCB325400FD1AD2 /* PersonalData2 */ = {
+			isa = PBXGroup;
+			children = (
+				8419B1102BE22068004A08FC /* EmotionSelectorView.swift */,
+				84F887422BCB325400FD1AD2 /* PersonalData2App.swift */,
+				84F887442BCB325400FD1AD2 /* ContentView.swift */,
+				84F887462BCB325400FD1AD2 /* Item.swift */,
+				84F887482BCB325500FD1AD2 /* Assets.xcassets */,
+				84F8874A2BCB325500FD1AD2 /* Preview Content */,
+				847E59AF2BCB4E2A008D3ECC /* HomeView.swift */,
+				847E59B12BCB4E44008D3ECC /* DashboardsView.swift */,
+				847E59B32BCB4E59008D3ECC /* SmokesView.swift */,
+				847E59B52BCB4E64008D3ECC /* ProfileView.swift */,
+				847E59B72BCB56DD008D3ECC /* RecordSmoke.swift */,
+				84E9BA142BCC775900612EDC /* EmotionSelection.swift */,
+				8493411B2BCF2FDC00239B67 /* WatchConnector.swift */,
+				847681962BD0064C00D9E69E /* MapView.swift */,
+				8454BD7E2BD8587F00F0D53B /* ActivitySelectorView.swift */,
+				8454BD812BD8595800F0D53B /* SocialSelectorView.swift */,
+				8454BD842BD859C600F0D53B /* RecordSmokeV2.swift */,
+				8454BD8B2BD868DE00F0D53B /* YearMonthSelector.swift */,
+				845938E42BD93EB60008F109 /* LandingPage.swift */,
+				845938E62BD942200008F109 /* MultiStepForm.swift */,
+				8419B0FA2BE1434F004A08FC /* HeatMapView.swift */,
+				8419B0FE2BE15A49004A08FC /* ActivityHeatMap.swift */,
+				8419B1022BE191CE004A08FC /* DataOverview2.swift */,
+				8419B1042BE1A1B6004A08FC /* MoodChartView.swift */,
+				8419B1062BE1C97F004A08FC /* SpendingChartView.swift */,
+				8419B1082BE1D816004A08FC /* ActivityChartView.swift */,
+				8419B10A2BE1DD46004A08FC /* SocialChartView.swift */,
+				8419B10C2BE1E3FC004A08FC /* DashboardsViewTime.swift */,
+				84F4A6722BE9E81300D5C301 /* ArticleView.swift */,
+				84F4A6742BE9E83800D5C301 /* LearnView.swift */,
+				84F4A6762BEA31D700D5C301 /* StartingStampView.swift */,
+				84CA35082BEA9F1100ECD854 /* CompletionView.swift */,
+			);
+			path = PersonalData2;
+			sourceTree = "<group>";
+		};
+		84F8874A2BCB325500FD1AD2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				84F8874B2BCB325500FD1AD2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		84F8875E2BCB350000FD1AD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8493411F2BCF387200239B67 /* WatchConnectivity.framework */,
+				849341212BCF396E00239B67 /* WatchConnectivity.framework */,
+				84CA350F2BEB27F700ECD854 /* WidgetKit.framework */,
+				84CA35112BEB27F700ECD854 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		849340FD2BCF066E00239B67 /* PersonalData2Watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 849341152BCF067100239B67 /* Build configuration list for PBXNativeTarget "PersonalData2Watch Watch App" */;
+			buildPhases = (
+				849340FA2BCF066E00239B67 /* Sources */,
+				849340FB2BCF066E00239B67 /* Frameworks */,
+				849340FC2BCF066E00239B67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PersonalData2Watch Watch App";
+			productName = "PersonalData2Watch Watch App";
+			productReference = 849340FE2BCF066E00239B67 /* PersonalData2Watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84CA350D2BEB27F700ECD854 /* SmokeTrack WidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84CA35222BEB27FA00ECD854 /* Build configuration list for PBXNativeTarget "SmokeTrack WidgetExtension" */;
+			buildPhases = (
+				84CA350A2BEB27F700ECD854 /* Sources */,
+				84CA350B2BEB27F700ECD854 /* Frameworks */,
+				84CA350C2BEB27F700ECD854 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SmokeTrack WidgetExtension";
+			productName = "SmokeTrack WidgetExtension";
+			productReference = 84CA350E2BEB27F700ECD854 /* SmokeTrack WidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		84F8873E2BCB325400FD1AD2 /* PersonalData2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84F8874F2BCB325500FD1AD2 /* Build configuration list for PBXNativeTarget "PersonalData2" */;
+			buildPhases = (
+				84F8873B2BCB325400FD1AD2 /* Sources */,
+				84F8873C2BCB325400FD1AD2 /* Frameworks */,
+				84F8873D2BCB325400FD1AD2 /* Resources */,
+				8493410C2BCF067100239B67 /* Embed Watch Content */,
+				84CA35252BEB27FA00ECD854 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8493410A2BCF067100239B67 /* PBXTargetDependency */,
+				84CA35202BEB27FA00ECD854 /* PBXTargetDependency */,
+			);
+			name = PersonalData2;
+			productName = PersonalData2;
+			productReference = 84F8873F2BCB325400FD1AD2 /* PersonalData2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84F887372BCB325300FD1AD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					849340FD2BCF066E00239B67 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					84CA350D2BEB27F700ECD854 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					84F8873E2BCB325400FD1AD2 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 84F8873A2BCB325300FD1AD2 /* Build configuration list for PBXProject "PersonalData2" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84F887362BCB325300FD1AD2;
+			productRefGroup = 84F887402BCB325400FD1AD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84F8873E2BCB325400FD1AD2 /* PersonalData2 */,
+				849340FD2BCF066E00239B67 /* PersonalData2Watch Watch App */,
+				84CA350D2BEB27F700ECD854 /* SmokeTrack WidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		849340FC2BCF066E00239B67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849341082BCF067100239B67 /* Preview Assets.xcassets in Resources */,
+				849341052BCF067100239B67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CA350C2BEB27F700ECD854 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CA351D2BEB27FA00ECD854 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F8873D2BCB325400FD1AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84F8874C2BCB325500FD1AD2 /* Preview Assets.xcassets in Resources */,
+				84F887492BCB325500FD1AD2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		849340FA2BCF066E00239B67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8454BD8A2BD8633F00F0D53B /* SelectionStep.swift in Sources */,
+				8454BD832BD8595800F0D53B /* SocialSelectorView.swift in Sources */,
+				849341192BCF230F00239B67 /* Smoke.swift in Sources */,
+				849341032BCF066E00239B67 /* ContentView.swift in Sources */,
+				8493411E2BCF308400239B67 /* WatchToIOSConnector.swift in Sources */,
+				84FDA27B2BCF63F900958C66 /* TimeFrame.swift in Sources */,
+				849341182BCF230B00239B67 /* EmotionSelection.swift in Sources */,
+				8454BD802BD8587F00F0D53B /* ActivitySelectorView.swift in Sources */,
+				8493411A2BCF26FB00239B67 /* Item.swift in Sources */,
+				84DB82132BCFE4A100FF008B /* DataType.swift in Sources */,
+				849341012BCF066E00239B67 /* PersonalData2WatchApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84CA350A2BEB27F700ECD854 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84CA351B2BEB27F700ECD854 /* AppIntent.swift in Sources */,
+				84CA352E2BEB3CCB00ECD854 /* SimpleAppOpenerWidget.swift in Sources */,
+				84CA35152BEB27F700ECD854 /* SmokeTrack_WidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84F8873B2BCB325400FD1AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8419B10B2BE1DD46004A08FC /* SocialChartView.swift in Sources */,
+				8419B0FF2BE15A49004A08FC /* ActivityHeatMap.swift in Sources */,
+				8454BD8C2BD868DE00F0D53B /* YearMonthSelector.swift in Sources */,
+				84F4A6752BE9E83800D5C301 /* LearnView.swift in Sources */,
+				8454BD852BD859C600F0D53B /* RecordSmokeV2.swift in Sources */,
+				845938E52BD93EB60008F109 /* LandingPage.swift in Sources */,
+				8419B1052BE1A1B6004A08FC /* MoodChartView.swift in Sources */,
+				84FDA27A2BCF63D200958C66 /* TimeFrame.swift in Sources */,
+				847E59B82BCB56DE008D3ECC /* RecordSmoke.swift in Sources */,
+				8454BD822BD8595800F0D53B /* SocialSelectorView.swift in Sources */,
+				847E59BA2BCB7E67008D3ECC /* Smoke.swift in Sources */,
+				847E59B62BCB4E64008D3ECC /* ProfileView.swift in Sources */,
+				8419B1112BE22068004A08FC /* EmotionSelectorView.swift in Sources */,
+				84CA352D2BEB3CCB00ECD854 /* SimpleAppOpenerWidget.swift in Sources */,
+				8419B1072BE1C97F004A08FC /* SpendingChartView.swift in Sources */,
+				8454BD892BD8633F00F0D53B /* SelectionStep.swift in Sources */,
+				84F4A6712BE9E7FD00D5C301 /* Article.swift in Sources */,
+				8454BD7F2BD8587F00F0D53B /* ActivitySelectorView.swift in Sources */,
+				84F887452BCB325400FD1AD2 /* ContentView.swift in Sources */,
+				84F4A6732BE9E81300D5C301 /* ArticleView.swift in Sources */,
+				845938E72BD942200008F109 /* MultiStepForm.swift in Sources */,
+				8419B1032BE191CE004A08FC /* DataOverview2.swift in Sources */,
+				84CA35092BEA9F1100ECD854 /* CompletionView.swift in Sources */,
+				84DB82122BCFE4A100FF008B /* DataType.swift in Sources */,
+				847E59B22BCB4E44008D3ECC /* DashboardsView.swift in Sources */,
+				84E9BA1F2BCCA79700612EDC /* ToasterView.swift in Sources */,
+				84C202562BE0287B005CB63F /* UserProfile.swift in Sources */,
+				847681972BD0064C00D9E69E /* MapView.swift in Sources */,
+				8419B1132BE22AB0004A08FC /* LocationManager.swift in Sources */,
+				84E9BA152BCC775900612EDC /* EmotionSelection.swift in Sources */,
+				84F887472BCB325400FD1AD2 /* Item.swift in Sources */,
+				8493411C2BCF2FDC00239B67 /* WatchConnector.swift in Sources */,
+				8419B1092BE1D816004A08FC /* ActivityChartView.swift in Sources */,
+				847E59B02BCB4E2A008D3ECC /* HomeView.swift in Sources */,
+				8419B10F2BE1FB4E004A08FC /* UserProfileManager.swift in Sources */,
+				847E59B42BCB4E59008D3ECC /* SmokesView.swift in Sources */,
+				8419B0FB2BE1434F004A08FC /* HeatMapView.swift in Sources */,
+				84E9BA212BCCC8D000612EDC /* DragState.swift in Sources */,
+				8419B10D2BE1E3FC004A08FC /* DashboardsViewTime.swift in Sources */,
+				84F4A6772BEA31D700D5C301 /* StartingStampView.swift in Sources */,
+				84F887432BCB325400FD1AD2 /* PersonalData2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8493410A2BCF067100239B67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 849340FD2BCF066E00239B67 /* PersonalData2Watch Watch App */;
+			targetProxy = 849341092BCF067100239B67 /* PBXContainerItemProxy */;
+		};
+		84CA35202BEB27FA00ECD854 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84CA350D2BEB27F700ECD854 /* SmokeTrack WidgetExtension */;
+			targetProxy = 84CA351F2BEB27FA00ECD854 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8493410D2BCF067100239B67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PersonalData2Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5P6K664SWG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PersonalData2Watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = DTU.PersonalData2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DTU.PersonalData2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Debug;
+		};
+		8493410E2BCF067100239B67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PersonalData2Watch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = 5P6K664SWG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = PersonalData2Watch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = DTU.PersonalData2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DTU.PersonalData2.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.4;
+			};
+			name = Release;
+		};
+		84CA35232BEB27FA00ECD854 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P6K664SWG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SmokeTrack Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SmokeTrack Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DTU.PersonalData2.SmokeTrack-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84CA35242BEB27FA00ECD854 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5P6K664SWG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "SmokeTrack Widget/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "SmokeTrack Widget";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "DTU.PersonalData2.SmokeTrack-Widget";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84F8874D2BCB325500FD1AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84F8874E2BCB325500FD1AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84F887502BCB325500FD1AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PersonalData2/Preview Content\"";
+				DEVELOPMENT_TEAM = 5P6K664SWG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SmokeTrack;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DTU.PersonalData2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84F887512BCB325500FD1AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PersonalData2/Preview Content\"";
+				DEVELOPMENT_TEAM = 5P6K664SWG;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = SmokeTrack;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DTU.PersonalData2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		849341152BCF067100239B67 /* Build configuration list for PBXNativeTarget "PersonalData2Watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8493410D2BCF067100239B67 /* Debug */,
+				8493410E2BCF067100239B67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84CA35222BEB27FA00ECD854 /* Build configuration list for PBXNativeTarget "SmokeTrack WidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84CA35232BEB27FA00ECD854 /* Debug */,
+				84CA35242BEB27FA00ECD854 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F8873A2BCB325300FD1AD2 /* Build configuration list for PBXProject "PersonalData2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F8874D2BCB325500FD1AD2 /* Debug */,
+				84F8874E2BCB325500FD1AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84F8874F2BCB325500FD1AD2 /* Build configuration list for PBXNativeTarget "PersonalData2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84F887502BCB325500FD1AD2 /* Debug */,
+				84F887512BCB325500FD1AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84F887372BCB325300FD1AD2 /* Project object */;
+}
